@@ -10,6 +10,7 @@ const TopNavigation = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="#deets">Home</Nav.Link>
+            <Nav.Link href="#deets">All Collections</Nav.Link>
             <Nav.Link href="#deets">About</Nav.Link>
           </Nav>
         </Navbar.Collapse>
