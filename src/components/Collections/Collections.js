@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card, Button, Badge } from "react-bootstrap";
+import "../../asset/css/custom.css";
 
 const Collections = () => {
   return (
@@ -8,7 +9,7 @@ const Collections = () => {
       <Container>
         <Row>
           <Col xs={12} md={6} lg={4} className="gy-5">
-            <Card bg="dark" variant="dark">
+            <Card className="bg-dark">
               <Card.Img
                 variant="top"
                 src="https://img.freepik.com/free-photo/fashion-polo-shirt-men_74190-4858.jpg?w=900&t=st=1660548737~exp=1660549337~hmac=7ea5db1c7bea0ab13ecd18b6faf37f25e7028cc998b3ab161d0eb56c5b051af4"
@@ -31,13 +32,13 @@ const Collections = () => {
                   the bulk of the card's content.
                 </Card.Text>
                 <div className="mt-auto ">
-                  <Button variant="primary">Details</Button>
+                  <button className="fw-bold glow-on-hover">Details</button>
                 </div>
               </Card.Body>
             </Card>
           </Col>
           <Col xs={12} md={6} lg={4} className="gy-5">
-            <Card bg="dark" variant="dark">
+            <Card className="bg-dark">
               <Card.Img
                 variant="top"
                 src="https://img.freepik.com/free-photo/fashion-polo-shirt-men_74190-4858.jpg?w=900&t=st=1660548737~exp=1660549337~hmac=7ea5db1c7bea0ab13ecd18b6faf37f25e7028cc998b3ab161d0eb56c5b051af4"
@@ -60,13 +61,13 @@ const Collections = () => {
                   the bulk of the card's content.
                 </Card.Text>
                 <div className="mt-auto ">
-                  <Button variant="primary">Details</Button>
+                  <button className="fw-bold glow-on-hover">Details</button>
                 </div>
               </Card.Body>
             </Card>
           </Col>
           <Col xs={12} md={6} lg={4} className="gy-5">
-            <Card bg="dark" variant="dark">
+            <Card className="bg-dark">
               <Card.Img
                 variant="top"
                 src="https://img.freepik.com/free-photo/fashion-polo-shirt-men_74190-4858.jpg?w=900&t=st=1660548737~exp=1660549337~hmac=7ea5db1c7bea0ab13ecd18b6faf37f25e7028cc998b3ab161d0eb56c5b051af4"
@@ -89,13 +90,13 @@ const Collections = () => {
                   the bulk of the card's content.
                 </Card.Text>
                 <div className="mt-auto ">
-                  <Button variant="primary">Details</Button>
+                  <button className="fw-bold glow-on-hover">Details</button>
                 </div>
               </Card.Body>
             </Card>
           </Col>
           <Col xs={12} md={6} lg={4} className="gy-5">
-            <Card bg="dark" variant="dark">
+            <Card className="bg-dark">
               <Card.Img
                 variant="top"
                 src="https://img.freepik.com/free-photo/fashion-polo-shirt-men_74190-4858.jpg?w=900&t=st=1660548737~exp=1660549337~hmac=7ea5db1c7bea0ab13ecd18b6faf37f25e7028cc998b3ab161d0eb56c5b051af4"
@@ -118,13 +119,13 @@ const Collections = () => {
                   the bulk of the card's content.
                 </Card.Text>
                 <div className="mt-auto ">
-                  <Button variant="primary">Details</Button>
+                  <button className="fw-bold glow-on-hover">Details</button>
                 </div>
               </Card.Body>
             </Card>
           </Col>
           <Col xs={12} md={6} lg={4} className="gy-5">
-            <Card bg="dark" variant="dark">
+            <Card className="bg-dark">
               <Card.Img
                 variant="top"
                 src="https://img.freepik.com/free-photo/fashion-polo-shirt-men_74190-4858.jpg?w=900&t=st=1660548737~exp=1660549337~hmac=7ea5db1c7bea0ab13ecd18b6faf37f25e7028cc998b3ab161d0eb56c5b051af4"
@@ -147,13 +148,13 @@ const Collections = () => {
                   the bulk of the card's content.
                 </Card.Text>
                 <div className="mt-auto ">
-                  <Button variant="primary">Details</Button>
+                  <button className="fw-bold glow-on-hover">Details</button>
                 </div>
               </Card.Body>
             </Card>
           </Col>
           <Col xs={12} md={6} lg={4} className="gy-5">
-            <Card bg="dark" variant="dark">
+            <Card className="bg-dark">
               <Card.Img
                 variant="top"
                 src="https://img.freepik.com/free-photo/fashion-polo-shirt-men_74190-4858.jpg?w=900&t=st=1660548737~exp=1660549337~hmac=7ea5db1c7bea0ab13ecd18b6faf37f25e7028cc998b3ab161d0eb56c5b051af4"
@@ -176,7 +177,7 @@ const Collections = () => {
                   the bulk of the card's content.
                 </Card.Text>
                 <div className="mt-auto ">
-                  <Button variant="primary">Details</Button>
+                  <button className="fw-bold glow-on-hover">Details</button>
                 </div>
               </Card.Body>
             </Card>
