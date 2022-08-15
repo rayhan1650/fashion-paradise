@@ -3,6 +3,7 @@ import Collections from "./components/Collections/Collections";
 import Footer from "./components/Footer/Footer";
 import TopBanner from "./components/TopBanner/TopBanner";
 import TopNavigation from "./components/TopNavigation/TopNavigation";
+import NotFound from "./pages/NotFound/NotFound";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <TopBanner />
       <Collections />
       <Footer />
+      {/* <NotFound /> */}
     </div>
   );
 }
