@@ -1,5 +1,6 @@
 import "./App.css";
 import Collections from "./components/Collections/Collections";
+import Footer from "./components/Footer/Footer";
 import TopBanner from "./components/TopBanner/TopBanner";
 import TopNavigation from "./components/TopNavigation/TopNavigation";
 
@@ -9,7 +10,7 @@ function App() {
       <TopNavigation />
       <TopBanner />
       <Collections />
-      <div style={{ height: 500 }}></div>
+      <Footer />
     </div>
   );
 }
