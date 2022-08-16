@@ -71,7 +71,11 @@ const ProductDetailsPage = () => {
           {/* customer phone no  */}
           <Form.Group className="mb-3" controlId="formBasicPhoneNo">
             <Form.Label>Phone Number</Form.Label>
-            <Form.Control type="text" placeholder="Enter your phone number" />
+            <Form.Control
+              type="text"
+              placeholder="Enter your phone number"
+              required
+            />
           </Form.Group>
 
           <Button variant="info" type="submit">

@@ -6,6 +6,7 @@ import HomePage from "./pages/Home/HomePage";
 import NotFound from "./pages/NotFound/NotFound";
 import ProductDetailsPage from "./pages/ProductDetails/ProductDetailsPage";
 import { Routes, Route } from "react-router-dom";
+import AboutPage from "./pages/About/AboutPage";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Route path="/home" element={<HomePage />} />
         <Route path="/allCollections" element={<AllCollectionsPage />} />
         <Route path="/productDetails" element={<ProductDetailsPage />} />
-        {/* <Route path="about" element={<About />} /> */}
+        <Route path="about" element={<AboutPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
 
