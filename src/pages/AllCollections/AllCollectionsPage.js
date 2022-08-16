@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Card, Badge } from "react-bootstrap";
 import "../../asset/css/custom.css";
+import { Link } from "react-router-dom";
 
 const AllCollectionsPage = () => {
   return (
@@ -32,7 +33,9 @@ const AllCollectionsPage = () => {
                   the bulk of the card's content.
                 </Card.Text>
                 <div className="mt-auto ">
-                  <button className="fw-bold glow-on-hover">Details</button>
+                  <Link to="/productDetails">
+                    <button className="fw-bold glow-on-hover">Details</button>
+                  </Link>
                 </div>
               </Card.Body>
             </Card>
@@ -61,7 +64,9 @@ const AllCollectionsPage = () => {
                   the bulk of the card's content.
                 </Card.Text>
                 <div className="mt-auto ">
-                  <button className="fw-bold glow-on-hover">Details</button>
+                  <Link to="/productDetails">
+                    <button className="fw-bold glow-on-hover">Details</button>
+                  </Link>
                 </div>
               </Card.Body>
             </Card>
@@ -90,7 +95,9 @@ const AllCollectionsPage = () => {
                   the bulk of the card's content.
                 </Card.Text>
                 <div className="mt-auto ">
-                  <button className="fw-bold glow-on-hover">Details</button>
+                  <Link to="/productDetails">
+                    <button className="fw-bold glow-on-hover">Details</button>
+                  </Link>
                 </div>
               </Card.Body>
             </Card>
@@ -119,7 +126,9 @@ const AllCollectionsPage = () => {
                   the bulk of the card's content.
                 </Card.Text>
                 <div className="mt-auto ">
-                  <button className="fw-bold glow-on-hover">Details</button>
+                  <Link to="/productDetails">
+                    <button className="fw-bold glow-on-hover">Details</button>
+                  </Link>
                 </div>
               </Card.Body>
             </Card>
@@ -148,7 +157,9 @@ const AllCollectionsPage = () => {
                   the bulk of the card's content.
                 </Card.Text>
                 <div className="mt-auto ">
-                  <button className="fw-bold glow-on-hover">Details</button>
+                  <Link to="/productDetails">
+                    <button className="fw-bold glow-on-hover">Details</button>
+                  </Link>
                 </div>
               </Card.Body>
             </Card>
@@ -177,7 +188,9 @@ const AllCollectionsPage = () => {
                   the bulk of the card's content.
                 </Card.Text>
                 <div className="mt-auto ">
-                  <button className="fw-bold glow-on-hover">Details</button>
+                  <Link to="/productDetails">
+                    <button className="fw-bold glow-on-hover">Details</button>
+                  </Link>
                 </div>
               </Card.Body>
             </Card>
@@ -206,7 +219,9 @@ const AllCollectionsPage = () => {
                   the bulk of the card's content.
                 </Card.Text>
                 <div className="mt-auto ">
-                  <button className="fw-bold glow-on-hover">Details</button>
+                  <Link to="/productDetails">
+                    <button className="fw-bold glow-on-hover">Details</button>
+                  </Link>
                 </div>
               </Card.Body>
             </Card>
@@ -235,7 +250,9 @@ const AllCollectionsPage = () => {
                   the bulk of the card's content.
                 </Card.Text>
                 <div className="mt-auto ">
-                  <button className="fw-bold glow-on-hover">Details</button>
+                  <Link to="/productDetails">
+                    <button className="fw-bold glow-on-hover">Details</button>
+                  </Link>
                 </div>
               </Card.Body>
             </Card>
@@ -264,7 +281,9 @@ const AllCollectionsPage = () => {
                   the bulk of the card's content.
                 </Card.Text>
                 <div className="mt-auto ">
-                  <button className="fw-bold glow-on-hover">Details</button>
+                  <Link to="/productDetails">
+                    <button className="fw-bold glow-on-hover">Details</button>
+                  </Link>
                 </div>
               </Card.Body>
             </Card>
@@ -293,7 +312,9 @@ const AllCollectionsPage = () => {
                   the bulk of the card's content.
                 </Card.Text>
                 <div className="mt-auto ">
-                  <button className="fw-bold glow-on-hover">Details</button>
+                  <Link to="/productDetails">
+                    <button className="fw-bold glow-on-hover">Details</button>
+                  </Link>
                 </div>
               </Card.Body>
             </Card>
@@ -322,7 +343,9 @@ const AllCollectionsPage = () => {
                   the bulk of the card's content.
                 </Card.Text>
                 <div className="mt-auto ">
-                  <button className="fw-bold glow-on-hover">Details</button>
+                  <Link to="/productDetails">
+                    <button className="fw-bold glow-on-hover">Details</button>
+                  </Link>
                 </div>
               </Card.Body>
             </Card>
@@ -351,7 +374,9 @@ const AllCollectionsPage = () => {
                   the bulk of the card's content.
                 </Card.Text>
                 <div className="mt-auto ">
-                  <button className="fw-bold glow-on-hover">Details</button>
+                  <Link to="/productDetails">
+                    <button className="fw-bold glow-on-hover">Details</button>
+                  </Link>
                 </div>
               </Card.Body>
             </Card>
