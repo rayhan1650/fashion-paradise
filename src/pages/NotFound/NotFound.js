@@ -1,6 +1,7 @@
 import React from "react";
 import "./NotFound.css";
 import { Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const NotFound = () => {
   return (
@@ -18,9 +19,9 @@ const NotFound = () => {
 
                 <p>the page you are looking for not avaible!</p>
 
-                <a href="https://instagram.com/abol.codes" class="link_404">
+                <Link to="/home" class="link_404 text-decoration-none">
                   Go to Home
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,23 +1,26 @@
 import "./App.css";
-import Collections from "./components/Collections/Collections";
 import Footer from "./components/Footer/Footer";
-import TopBanner from "./components/TopBanner/TopBanner";
 import TopNavigation from "./components/TopNavigation/TopNavigation";
 import AllCollectionsPage from "./pages/AllCollections/AllCollectionsPage";
+import HomePage from "./pages/Home/HomePage";
 import NotFound from "./pages/NotFound/NotFound";
 import ProductDetailsPage from "./pages/ProductDetails/ProductDetailsPage";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div>
       <TopNavigation />
-      {/* <TopBanner /> */}
-      {/* <Collections /> */}
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/home" element={<HomePage />} />
+        <Route path="/allCollections" element={<AllCollectionsPage />} />
+        <Route path="/productDetails" element={<ProductDetailsPage />} />
+        {/* <Route path="about" element={<About />} /> */}
+        <Route path="*" element={<NotFound />} />
+      </Routes>
 
-      {/* <AllCollectionsPage /> */}
-      <ProductDetailsPage />
       <Footer />
-      {/* <NotFound /> */}
     </div>
   );
 }
