@@ -1,9 +1,18 @@
-import React from "react";
-import { Container, Row, Form, Button } from "react-bootstrap";
+import React, { useState } from "react";
+import { Container, Row, Form, Button, Modal } from "react-bootstrap";
 import { GlassMagnifier } from "react-image-magnifiers";
 import "./ProductDetailsPage.css";
 
 const ProductDetailsPage = () => {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    handleShow();
+  };
   return (
     <Container>
       <Row className="mx-1">
@@ -40,7 +49,7 @@ const ProductDetailsPage = () => {
         <h2 className="text-center text-info pb-3">
           Submit your info for placing order
         </h2>
-        <Form>
+        <Form onSubmit={handleSubmit}>
           {/* product Name  */}
           <Form.Group className="mb-3" controlId="formBasicProductName">
             <Form.Label>Product Name</Form.Label>
@@ -82,6 +91,22 @@ const ProductDetailsPage = () => {
             Place Order
           </Button>
         </Form>
+
+        {/* modal  */}
+        <Modal show={show} onHide={handleClose}>
+          <Modal.Header closeButton>
+            <Modal.Title>Information submitted</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            We received your order. For confirmation we will contact you soon.
+            Thank You.
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="primary" onClick={handleClose}>
+              Ok
+            </Button>
+          </Modal.Footer>
+        </Modal>
       </Row>
     </Container>
   );
