@@ -47,15 +47,6 @@ const Footer = () => {
               About Me
             </a>
             <br />
-            <a
-              className="text-decoration-none text-secondary"
-              target="_blank"
-              rel="noreferrer"
-              href="https://drive.google.com/file/d/1EsvQcZ-IMCKBgL-W9drECCs8nlXJlaZL/view?usp=sharing"
-            >
-              My Resume
-            </a>
-            <br />
             <a className="text-decoration-none text-secondary" to="/contact">
               Contact Me
             </a>

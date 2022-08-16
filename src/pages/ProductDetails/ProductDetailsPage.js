@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Form, Button } from "react-bootstrap";
 import { GlassMagnifier } from "react-image-magnifiers";
+import "./ProductDetailsPage.css";
 
 const ProductDetailsPage = () => {
   return (
@@ -35,8 +36,10 @@ const ProductDetailsPage = () => {
           </div>
         </div>
       </Row>
-      <Row>
-        <h2 className="text-center">Submit your info for placing order</h2>
+      <Row className="myForm mx-auto border shadow py-4">
+        <h2 className="text-center text-info pb-3">
+          Submit your info for placing order
+        </h2>
         <Form>
           {/* product Name  */}
           <Form.Group className="mb-3" controlId="formBasicProductName">
@@ -68,10 +71,10 @@ const ProductDetailsPage = () => {
           {/* customer phone no  */}
           <Form.Group className="mb-3" controlId="formBasicPhoneNo">
             <Form.Label>Phone Number</Form.Label>
-            <Form.Control type="number" placeholder="Enter your phone number" />
+            <Form.Control type="text" placeholder="Enter your phone number" />
           </Form.Group>
 
-          <Button variant="primary" type="submit">
+          <Button variant="info" type="submit">
             Place Order
           </Button>
         </Form>
