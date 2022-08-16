@@ -1,5 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { FaFacebook, FaYoutube, FaInstagramSquare } from "react-icons/fa";
+import { MdEmail, MdCall } from "react-icons/md";
+import { BsInstagram } from "react-icons/bs";
+import { AiOutlineInstagram } from "react-icons/ai";
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -14,8 +19,7 @@ const Footer = () => {
               rel="noreferrer"
               href="https://www.facebook.com/nurmohammad.rayhan.9/"
             >
-              {/* <FaFacebook />  */}
-              Facebook
+              <FaFacebook /> Facebook
             </a>
             <br />
             <a
@@ -24,20 +28,29 @@ const Footer = () => {
               rel="noreferrer"
               href="https://www.youtube.com/"
             >
-              {/* <FaYoutube className="text-danger" />  */}
-              YouTube
+              <FaYoutube className="text-danger" /> YouTube
+            </a>
+            <br />
+            <a
+              className="text-decoration-none"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.youtube.com/"
+            >
+              <AiOutlineInstagram className="myBootstrap text-white " />{" "}
+              Instagram
             </a>
           </Col>
           <Col lg={3} md={6} sm={12} className="py-5 ps-5">
             <h2>Address</h2>
             <p className="mb-0 text-secondary">My address</p>
             <small className="text-secondary">
-              {/* <MdEmail className="me-1" /> */}
-              email
+              <MdEmail className="me-1" />
+              email@gmail.com
             </small>
             <br />
             <small className="text-secondary">
-              {/* <MdCall className="me-1" /> */}
+              <MdCall className="me-1" />
               016673743
             </small>
           </Col>
